@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311918, g: 0.3807398, b: 0.35872716, a: 1}
+  m_IndirectSpecularColor: {r: 0.3731193, g: 0.38073996, b: 0.3587269, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -12328,13 +12328,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6336108496405366062, guid: 63fa6ca27a9e15b42a8f1107515f51ca,
         type: 3}
-      propertyPath: damageTaken
-      value: 25
+      propertyPath: startingHealth
+      value: 400
       objectReference: {fileID: 0}
     - target: {fileID: 6336108496405366062, guid: 63fa6ca27a9e15b42a8f1107515f51ca,
         type: 3}
-      propertyPath: startingHealth
-      value: 400
+      propertyPath: damageTaken
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4399621654470242854, guid: 63fa6ca27a9e15b42a8f1107515f51ca,
         type: 3}
@@ -21464,6 +21464,21 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2545316106775006843, guid: 7ab9004b81e75d64ebddbd892142c706,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6235900233412478615, guid: 7ab9004b81e75d64ebddbd892142c706,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6235900233412478615, guid: 7ab9004b81e75d64ebddbd892142c706,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8152304221634504147, guid: 7ab9004b81e75d64ebddbd892142c706,
         type: 3}
       propertyPath: m_Layer
@@ -21557,21 +21572,6 @@ PrefabInstance:
     - target: {fileID: 906501461, guid: 7ab9004b81e75d64ebddbd892142c706, type: 3}
       propertyPath: m_Layer
       value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 2545316106775006843, guid: 7ab9004b81e75d64ebddbd892142c706,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6235900233412478615, guid: 7ab9004b81e75d64ebddbd892142c706,
-        type: 3}
-      propertyPath: m_IsTrigger
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6235900233412478615, guid: 7ab9004b81e75d64ebddbd892142c706,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7ab9004b81e75d64ebddbd892142c706, type: 3}
@@ -24414,6 +24414,46 @@ PrefabInstance:
       propertyPath: spawnTime
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 2545316106775006843, guid: 7ab9004b81e75d64ebddbd892142c706,
+        type: 3}
+      propertyPath: deathTrigger.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2545316106775006843, guid: 7ab9004b81e75d64ebddbd892142c706,
+        type: 3}
+      propertyPath: startingHealth
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 2545316106775006843, guid: 7ab9004b81e75d64ebddbd892142c706,
+        type: 3}
+      propertyPath: deathTrigger.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2545316106775006843, guid: 7ab9004b81e75d64ebddbd892142c706,
+        type: 3}
+      propertyPath: deathTrigger.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2545316106775006843, guid: 7ab9004b81e75d64ebddbd892142c706,
+        type: 3}
+      propertyPath: deathTrigger.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 374796164}
+    - target: {fileID: 2545316106775006843, guid: 7ab9004b81e75d64ebddbd892142c706,
+        type: 3}
+      propertyPath: deathTrigger.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 2545316106775006843, guid: 7ab9004b81e75d64ebddbd892142c706,
+        type: 3}
+      propertyPath: deathTrigger.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2545316106775006843, guid: 7ab9004b81e75d64ebddbd892142c706,
+        type: 3}
+      propertyPath: deathTrigger.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8152304221634504147, guid: 7ab9004b81e75d64ebddbd892142c706,
         type: 3}
       propertyPath: m_Layer
@@ -24507,46 +24547,6 @@ PrefabInstance:
     - target: {fileID: 906501461, guid: 7ab9004b81e75d64ebddbd892142c706, type: 3}
       propertyPath: m_Layer
       value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 2545316106775006843, guid: 7ab9004b81e75d64ebddbd892142c706,
-        type: 3}
-      propertyPath: deathTrigger.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2545316106775006843, guid: 7ab9004b81e75d64ebddbd892142c706,
-        type: 3}
-      propertyPath: startingHealth
-      value: 1000
-      objectReference: {fileID: 0}
-    - target: {fileID: 2545316106775006843, guid: 7ab9004b81e75d64ebddbd892142c706,
-        type: 3}
-      propertyPath: deathTrigger.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 2545316106775006843, guid: 7ab9004b81e75d64ebddbd892142c706,
-        type: 3}
-      propertyPath: deathTrigger.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2545316106775006843, guid: 7ab9004b81e75d64ebddbd892142c706,
-        type: 3}
-      propertyPath: deathTrigger.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 374796164}
-    - target: {fileID: 2545316106775006843, guid: 7ab9004b81e75d64ebddbd892142c706,
-        type: 3}
-      propertyPath: deathTrigger.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SetActive
-      objectReference: {fileID: 0}
-    - target: {fileID: 2545316106775006843, guid: 7ab9004b81e75d64ebddbd892142c706,
-        type: 3}
-      propertyPath: deathTrigger.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 2545316106775006843, guid: 7ab9004b81e75d64ebddbd892142c706,
-        type: 3}
-      propertyPath: deathTrigger.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7ab9004b81e75d64ebddbd892142c706, type: 3}

@@ -81,7 +81,7 @@ public class EnemyHealth : MonoBehaviour
         capsuleCollider.isTrigger = false;
 
         anim.SetTrigger("Dead");
-        //ScoreManager.score += scoreValue;
+        ScoreManager.score += scoreValue;
         enemyAudio.clip = deathClip;
         enemyAudio.Play();
         //float delay = 0f;
