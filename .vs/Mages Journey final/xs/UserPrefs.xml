@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{7FEBCBA7-F9B1-CAB9-A744-484D07DC017E}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Game/_Scripts/Enemy/EnemyHealth.cs">
+    <Files>
+      <File FileName="Assets/Game/_Scripts/Enemy/EnemyHealth.cs" Line="111" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Mages Journey final" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Game" expanded="True">
+                <Node name="_Scripts" expanded="True">
+                  <Node name="Enemy" expanded="True">
+                    <Node name="EnemyHealth.cs" selected="True" />
+                  </Node>
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="0fe3c2d3-4f6e-4f68-8183-75519d7163e7" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
