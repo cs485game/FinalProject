@@ -1,6 +1,6 @@
 OSXUniversal
 PlayerPath?
-/Users/cmo/Desktop/Mages Journey final/mjfinal2.2.2.app
+/Users/cmo/Desktop/Mages Journey final/mac-final.app
 SceneListBegin?
 Assets/_Scenes/MainMenu.unity
 Assets/_Scenes/Tutorial.unity
