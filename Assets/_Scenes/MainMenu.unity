@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 170076734}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657838, g: 0.49641234, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -892,7 +892,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Creators for game
+  m_Text: Game Creators
 --- !u!222 &901611504
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1311,7 +1311,7 @@ MonoBehaviour:
     m_Font: {fileID: 12800000, guid: 7cb2912222469634ba17a77055919ea8, type: 3}
     m_FontSize: 24
     m_FontStyle: 0
-    m_BestFit: 0
+    m_BestFit: 1
     m_MinSize: 2
     m_MaxSize: 40
     m_Alignment: 4
@@ -1320,7 +1320,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Try to eliminate as many enemies as you can, while staying alive.
+  m_Text: To begin the actual game you choose the play option. To move you use the
+    wasd keys. To aim you use your mouse to turn toward the enemies. To fire you left
+    click with your mouse. You can be touched by the enemies a total of five times
+    before you lose and it becomes game over.
 --- !u!222 &1193735538
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2045,7 +2048,7 @@ MonoBehaviour:
     m_Font: {fileID: 12800000, guid: 7cb2912222469634ba17a77055919ea8, type: 3}
     m_FontSize: 24
     m_FontStyle: 0
-    m_BestFit: 0
+    m_BestFit: 1
     m_MinSize: 2
     m_MaxSize: 40
     m_Alignment: 4
@@ -2054,13 +2057,19 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Hunter
+  m_Text: '
 
-    Kory
+    Kory: enemy controller, event manager, player controller, player combat, proofing
 
-    Michael
+    Mihnea: build menu, proofing, webapp, github repo manage
 
-    Mihnea'
+    Michael: level design, proofing
+
+    Hunter: enemy, sound, music, report, proofing
+
+    References: unity tutorials and asset store items
+
+'
 --- !u!222 &1638621281
 CanvasRenderer:
   m_ObjectHideFlags: 0
